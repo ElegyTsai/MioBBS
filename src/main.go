@@ -1,6 +1,7 @@
 package main
 
 import (
+	_ "Miyo_Assignment/global"
 	v1 "Miyo_Assignment/router"
 )
 
