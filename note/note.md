@@ -17,6 +17,7 @@
   - **cmd+1234**      各级标题
   ### MarkDown
   - 表格用| |--来记录
+  - []可以用来表示勾选
 
 ## 项目相关
 
@@ -52,3 +53,29 @@
             ├─utils     （前端工具库）
             └─view      （前端页面）
 
+
+
+##  ZAP
+
+zap是一个高效的logger记录，可参考[blog](https://www.liwenzhou.com/posts/Go/zap/)
+
+在相关的项目中，有一种比较好的方式是
+
+重写一个printf函数，把zap包装一下，因为有一些记录可能会记录进mysql，通过包装可以更方便的使用
+
+## VIPER
+
+[Viper GitHub](https://github.com/spf13/viper)
+
+viper 是一个配置文件管理的包，主要逻辑是从yaml等文件中读取配置，方便我们修改。[一个简单的教程](https://www.liwenzhou.com/posts/Go/viper_tutorial/)
+
+1. 在指定文件夹下建立一个yaml文件
+2. 用viper 去读入这些配置文件
+3. 在代码中使用对应的键值，完成配置
+
+
+
+## Go语言相关
+
+- 用 . import 可以省略前面的
+- 
