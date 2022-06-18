@@ -1,0 +1,8 @@
+mysql:
+  path: '127.0.0.1'
+  port: '3306'
+  db-name: 'mio'
+  username: 'root'
+  password: '1234'
+  config: ''
+

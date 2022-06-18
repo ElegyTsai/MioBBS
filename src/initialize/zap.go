@@ -6,5 +6,6 @@ import (
 )
 
 func InitZap() {
-	global.GV_LOG = zap.NewProduction()
+	logger, _ := zap.NewProduction()
+	global.GV_LOG = logger.Sugar()
 }

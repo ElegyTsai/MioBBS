@@ -17,7 +17,7 @@
   - **cmd+1234**      各级标题
   ### MarkDown
   - 表格用| |--来记录
-  - []可以用来表示勾选
+  - ```-[ ]```可以用来表示勾选
 
 ## 项目相关
 
@@ -73,9 +73,20 @@ viper 是一个配置文件管理的包，主要逻辑是从yaml等文件中读�
 2. 用viper 去读入这些配置文件
 3. 在代码中使用对应的键值，完成配置
 
+## Gorm
+
+[官网](https://gorm.io/zh_CN/docs/connecting_to_the_database.html)
+
+用Viper去保存位置
+
+
+
+
 
 
 ## Go语言相关
 
 - 用 . import 可以省略前面的
-- 
+- if := 中声明的变量会在if语句块结束后消失
+- *_test.go 文件用于默认的测试框架
+- 注意 go test/run/build 所在的文件都是不一样的 
