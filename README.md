@@ -5,7 +5,7 @@
 - web框架：GIN
 - Database: MySQL
 - ORM： GORM
-- 工具：Swagger，Zap，Viper
+- 工具：Swagger，Zap，Viper, Casbin, JWT
 - 可能选用的工具: kafka，Redis，ORM，
 
 ## 项目目标
