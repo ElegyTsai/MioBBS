@@ -33,6 +33,8 @@
       ├─source         (初始化需要的数据)
       ├─initialize    （初始化）
       ├─log            （一些网站记录文件）
+      ├─global         （全局需要的一些东西）
+      ├─api            （借口）
       └─utils          （公共功能）
     ├─note         （学习笔记文件夹）
     

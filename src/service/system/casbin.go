@@ -65,6 +65,10 @@ func (CasbinService *CasbinService) AddPermissionsForRole(role string, newPermis
 	return nil
 }
 
+func (casbinService *CasbinService) AddDefaultRole(user *model.User) {
+	casbinService.AddRole(user, "level1")
+}
+
 func (casbinService *CasbinService) Casbin() *casbin.SyncedEnforcer {
 	once.Do(func() {
 		a, _ := gormadapter.NewAdapterByDB(global.GV_DB)

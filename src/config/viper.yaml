@@ -9,3 +9,10 @@ mysql:
 casbin:
   model-path: './rbac_model.conf'
 
+
+
+jwt:
+  signing-key: 'MiHoYo'
+  expire-time: 604800
+  buffer-time: 86400
+  Issuer: 'Wei'
