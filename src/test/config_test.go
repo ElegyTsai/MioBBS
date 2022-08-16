@@ -3,7 +3,7 @@ package main
 import (
 	"Miyo_Assignment/global"
 	"Miyo_Assignment/initialize"
-	model "Miyo_Assignment/model/User"
+	model "Miyo_Assignment/model/user"
 	"testing"
 )
 
@@ -21,7 +21,7 @@ func TestGormCreateUserTable(t *testing.T) {
 }
 func TestGormCreateUser(t *testing.T) {
 	initialize.Init()
-	u := model.User{Username: "admin", Nickname: "wei", Phone: 123, Email: "123@gmail.com", Password: "1234"}
+	u := model.User{Username: "admin", Nickname: "wei", Phone: "123", Email: "123@gmail.com", Password: "1234"}
 	global.GV_DB.Create(&u)
 
 }

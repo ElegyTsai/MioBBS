@@ -2,7 +2,7 @@ package system
 
 import (
 	"Miyo_Assignment/global"
-	model "Miyo_Assignment/model/User"
+	model "Miyo_Assignment/model/user"
 	"errors"
 	"github.com/casbin/casbin/v2"
 	gormadapter "github.com/casbin/gorm-adapter/v3"

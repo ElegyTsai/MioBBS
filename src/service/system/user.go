@@ -2,7 +2,7 @@ package system
 
 import (
 	"Miyo_Assignment/global"
-	"Miyo_Assignment/model/User"
+	"Miyo_Assignment/model/user"
 	"Miyo_Assignment/utils"
 	"errors"
 	"gorm.io/gorm"

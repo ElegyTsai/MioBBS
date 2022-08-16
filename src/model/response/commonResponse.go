@@ -31,7 +31,7 @@ func OkResponseWithMsg(c *gin.Context, msg string) {
 	result(c, SUCCESS, map[string]interface{}{}, msg)
 }
 
-func ResponseWithData(c *gin.Context, data interface{}) {
+func okWithData(c *gin.Context, data interface{}) {
 	result(c, SUCCESS, data, "Success")
 }
 
