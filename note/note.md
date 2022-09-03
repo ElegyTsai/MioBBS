@@ -55,6 +55,10 @@
 
 
 
+
+
+
+
 ##  ZAP
 
 zap是一个高效的logger记录，可参考[blog](https://www.liwenzhou.com/posts/Go/zap/)
@@ -81,6 +85,12 @@ viper 是一个配置文件管理的包，主要逻辑是从yaml等文件中读�
 
 
 
+## Casbin和JWT
+
+[casbin](https://github.com/casbin/casbin)
+
+[JWT](https://github.com/pascaldekloe/jwt)
+
 
 
 
@@ -90,3 +100,9 @@ viper 是一个配置文件管理的包，主要逻辑是从yaml等文件中读�
 - if := 中声明的变量会在if语句块结束后消失
 - *_test.go 文件用于默认的测试框架
 - 注意 go test/run/build 所在的文件都是不一样的 
+- [Go排序相关](https://learnku.com/articles/38269)
+- 返回一个指针的时候需要加&
+- Sync.Once  类似于init() 可以用来实现单例模式，但是效率更高,有个一个Do{func(){ }}函数只会被使用一次 [详细看这里](https://geektutu.com/post/hpg-sync-once.html)
+- Append有一个巨坑,[详见](https://segmentfault.com/a/1190000011016431) 大致原理为append在扩容的情况下，会返回一个新的地址，**有时候是原地修改，有时候不是原地修改！**因为append存在扩容机制的关系，如果可以直接添加一整个切片，就不要一个个添加，否则会造成多次扩容。
+- 
+

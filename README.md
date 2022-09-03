@@ -5,7 +5,7 @@
 - web框架：GIN
 - Database: MySQL
 - ORM： GORM
-- 工具：Swagger，Zap，Viper
+- 工具：Swagger，Zap，Viper, Casbin, JWT
 - 可能选用的工具: kafka，Redis，ORM，
 
 ## 项目目标
@@ -33,6 +33,8 @@
       ├─source         (初始化需要的数据)
       ├─initialize    （初始化）
       ├─log            （一些网站记录文件）
+      ├─global         （全局需要的一些东西）
+      ├─api            （借口）
       └─utils          （公共功能）
     ├─note         （学习笔记文件夹）
     
